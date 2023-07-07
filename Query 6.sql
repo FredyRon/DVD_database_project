@@ -5,5 +5,4 @@ WITH customer_rentals AS (
     GROUP BY c.customer_id, c.first_name, c.last_name
 )
 SELECT *
-FROM customer_rentals
-ORDER BY rental_count DESC;
+FROM customer_rentals;
